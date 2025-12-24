@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Ad Blocker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+          <path d="M10 16L14 20L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="title-section">
+        <h1>Free Ad Blocker</h1>
+        <p class="subtitle">Protecting your browsing</p>
+      </div>
+    </div>
+
+    <!-- Toggle Section -->
+    <div class="toggle-section">
+      <div class="toggle-info">
+        <span class="toggle-label">Ad Blocking</span>
+        <span class="toggle-status" id="status">Enabled</span>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="toggleSwitch" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats-section">
+      <div class="stat-card">
+        <div class="stat-icon">🛡️</div>
+        <div class="stat-content">
+          <div class="stat-value" id="sessionBlocked">0</div>
+          <div class="stat-label">Blocked This Session</div>
+        </div>
+      </div>
+      
+      <div class="stat-card">
+        <div class="stat-icon">🎯</div>
+        <div class="stat-content">
+          <div class="stat-value" id="totalBlocked">0</div>
+          <div class="stat-label">Total Blocked</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button class="btn btn-secondary" id="resetBtn">Reset Session Stats</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Free & Open Source</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
