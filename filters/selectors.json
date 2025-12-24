@@ -24,6 +24,20 @@
         "[data-ad-slot]",
         "[data-ad-unit]",
         "[data-ad-client]",
-        "[data-google-query-id]"
+        "[data-google-query-id]",
+        "ytd-display-ad-renderer",
+        "ytd-promoted-sparkles-web-renderer",
+        "ytd-promoted-video-renderer",
+        "ytd-compact-promoted-video-renderer",
+        "ytd-banner-promo-renderer",
+        "ytd-statement-banner-renderer",
+        "ytd-merch-shelf-renderer",
+        "#masthead-ad",
+        ".video-ads",
+        ".ytp-ad-module",
+        ".ytp-ad-image-overlay",
+        ".ytp-ad-overlay-container",
+        ".ytp-ad-player-overlay",
+        ".ytp-ad-text"
     ]
 }
